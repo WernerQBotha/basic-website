@@ -1,6 +1,27 @@
-# BasicWebsiteTemp
+# Basic Website
+
+A basic one-page website built with Angular 21 without zone.js. Features a fixed header with navigation and multiple scrollable sections.
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.4.
+
+## Features
+
+- **Zoneless Angular 21**: Uses `provideZonelessChangeDetection()` for improved performance
+- **Fixed Header Navigation**: Sticky header with smooth scrolling to sections
+- **Reusable Section Component**: Easily add new sections with custom content and colors
+- **Three Sections**: Home, Products, and Contact Us
+- **Responsive Design**: Clean, centered layout that works on all screen sizes
+
+## Project Structure
+
+```
+src/app/
+├── header/           # Fixed navigation header component
+├── section/          # Reusable section component
+├── app.ts           # Root component
+├── app.config.ts    # App configuration with zoneless mode
+└── app.routes.ts    # Routing configuration
+```
 
 ## Development server
 
